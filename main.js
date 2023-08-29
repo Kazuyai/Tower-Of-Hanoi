@@ -34,7 +34,7 @@ class Disk {
 		ctx.fillStyle = this.color;
 		ctx.fill();
 		ctx.closePath();
-		ctx.font = "bold 4.8rem Roboto medium";
+		ctx.font = "bold 2.4rem Roboto medium";
 		ctx.fillStyle = "#F6F6F6";
 		ctx.textAlign = "center";
 		ctx.textBaseline = "middle";
@@ -155,7 +155,7 @@ let change = pos => {
 
 // クリア時の処理
 let clearGame = () => {
-    ctx.font = "bold 26rem Roboto medium";
+    ctx.font = "bold 13rem Roboto medium";
 	ctx.fillStyle = "#6666FF";
 	ctx.textAlign = "center";
 	ctx.textBaseline = "middle";
@@ -171,7 +171,7 @@ let clearGame = () => {
 let displayTime = () => {
 	let currentTime = new Date(Date.now() - startTime);
 	ctx.clearRect(0, 0, canvas.width, (canvas.height * 5) / V_RATIO);
-	ctx.font = "bold 12rem Roboto medium";
+	ctx.font = "bold 6rem Roboto medium";
 	ctx.fillStyle = "#FFFFFF";
 	ctx.textAlign = "center";
 	ctx.textBaseline = "middle";
