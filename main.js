@@ -3,7 +3,7 @@
  */
 
 // 塔の高さ
-const TOWER_HEIGHT = 3;
+const TOWER_HEIGHT = 5;
 
 const H_RATIO = 33;
 const V_RATIO = 18;
