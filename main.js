@@ -38,11 +38,11 @@ class Disk {
 		ctx.fillStyle = "#F6F6F6";
 		ctx.textAlign = "center";
 		ctx.textBaseline = "middle";
-		ctx.fillText(
+		/*ctx.fillText(
 			this.size,
 			(canvas.width * (5.5 + 11 * poleNum)) / H_RATIO,
 			(canvas.width * (16.5 - height)) / H_RATIO
-		);
+		);*/
 	};
 }
 
