@@ -59,6 +59,6 @@ canvas {
 @media screen and (max-height: 50dvw) {
     #canvasBox {
         width: 165dvh;
-        height: 88dvh;
+        height: 90dvh;
     }
 }
