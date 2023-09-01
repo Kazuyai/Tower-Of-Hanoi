@@ -159,17 +159,13 @@ let change = pos => {
 
 // クリア時の処理
 let clearGame = () => {
-    ctx.font = "bold 13vw Roboto medium";
+	ctx.font = "bold 13vw Roboto medium";
 	ctx.fillStyle = "#6666FF";
 	ctx.textAlign = "center";
 	ctx.textBaseline = "middle";
-	ctx.fillText(
-		"C L E A R",
-		(canvas.width * 16.6) / H_RATIO,
-		(canvas.height * 9) / V_RATIO
-	);
-    clearTimeout(timeoutID);
-}
+	ctx.fillText("C L E A R", (canvas.width * 16.6) / H_RATIO, (canvas.height * 9) / V_RATIO);
+	clearTimeout(timeoutID);
+};
 
 // 経過時間を表示する関数
 let displayTime = () => {
@@ -207,4 +203,4 @@ let answer = (n, from, to, work) => {
 
 init();
 
-// answer(5, '左', '右', '真ん中');
+answer(5, "左", "真ん中", "右");
