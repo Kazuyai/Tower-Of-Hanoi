@@ -80,9 +80,13 @@ let drawRect = (posX, posY, width, height) => {
 // 土台を書く関数
 let drawBase = () => {
 	ctx.beginPath();
-	drawRect(0.5, 16, 32, 1);
-	drawRect(5, 5, 1, 12);
 	drawRect(16, 5, 1, 12);
+	ctx.fillStyle = "#ff4444";
+	ctx.fill();
+	ctx.closePath();
+	ctx.beginPath();
+	drawRect(0.5, 16, 32, 1.1);
+	drawRect(5, 5, 1, 12);
 	drawRect(27, 5, 1, 12);
 	ctx.fillStyle = "#f9d076";
 	ctx.fill();
